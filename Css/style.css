@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2b0303;
+    min-height: 20vh;
+}
+
+.header a img{
+    width: 120px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    width: 650px;
+    justify-content: space-around;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main{
+    min-height: 70vh;
+}
+
+.main-index{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+.main-contacto form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pelicula p{
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    min-height: 10vh;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linksfooter {color: red;}
+/*Mobile Last - Max-width*/
+@media (max-width: 619px){
+    .header{
+        justify-content: center;
+    }
+    .nav ul{
+        width:300px;
+    }
+}
