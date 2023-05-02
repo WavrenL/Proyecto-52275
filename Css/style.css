@@ -55,3 +55,59 @@ body{
 .fafa{border: 2px solid #0000002d; padding: 8px;}
 
 .footer a {text-decoration: none;color: red;}
+
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2 {color: black ; font-size: 35px;}
+label { color: black; font-size: 15px; font-weight: 600; margin-bottom: 2px;}
+input, textarea { padding: 17px 25px; border-radius: 25px; margin-bottom: 20px; background-color: #fffb00; border: 2px solid #000000; color: #00ff11; outline: none;}
+input::placeholder, textarea::placeholder {
+    color: black;
+}
+.form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.main{
+    min-height: 70vh;
+}
+
+.main-index{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+.info{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main div img {
+    max-width: 350px;
+    max-height: 300px;
+}
