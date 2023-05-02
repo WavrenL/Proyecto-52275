@@ -25,6 +25,10 @@
 
 .letrapiola {font-family: formula_1;}
 
+.letracopada {font-family: formula_regular}
+
+.letracheta {font-family: forumula_bold;}
+
 body{
     background: #1a2a6c;
     background: -webkit-linear-gradient(to right, #ff0000, #ee5353, #ffffff);
@@ -47,8 +51,7 @@ body{
     padding: 0;
 
 }
+.prueba{ background: linear-gradient(to right, #ff0000, #ee5353, #ffffff); color: black;}
+.fafa{border: 2px solid #0000002d; padding: 8px;}
 
-
-
-.footer a {text-decoration: none;
-            color: red;}
+.footer a {text-decoration: none;color: red;}
