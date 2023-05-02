@@ -43,14 +43,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 
 }
 
 
-.zocalo{
-    background-color: black;
-    min-height: 10vh;
-}
 
 .footer a {text-decoration: none;
             color: red;}
