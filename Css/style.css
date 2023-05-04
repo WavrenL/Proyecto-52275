@@ -56,9 +56,9 @@ body{
 
 .footer a {text-decoration: none;color: red;}
 
-form {
+.form{
     padding: 50px 55px;
-    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgb(0, 0, 0, 1);
     border-radius: 20px;
     text-align: center;
     width: 340px;
